@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" slick-uniqueid="3">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="Haoxiang Guo, guohaoxiang, Tsinghua University, 郭昊翔, 清华大学, ce_polycube, PrimitiveGen">
+<meta name="description" content="Cut-enhanced PolyCube-Maps for Feature-aware All-Hex Meshing">
+<link rel="stylesheet" href="./style/jemdoc.css" type="text/css">
+<style type="text/css">
+</style>
+<title>CE-PolyCube</title>
+<link rel="shortcut icon" href="./ce_polycube_files/ce_polycube.ico" >
+</head>
+
+<body>
+<div id="layout-content" style="margin-top:25px">
+
+<!-- teaser -->
+<table border="0" width="100%"> <tbody>
+<tr>
+  <td valign="top" align="center">
+    <b><font size="5" face="Times New Roman" >Cut-enhanced PolyCube-Maps for Feature-aware All-Hex Meshing</font></b>
+    <br><br>
+  </td>
+</tr>
+
+<tr>
+  <td valign="top" align="center">
+    <font size="4" face="Times New Roman" > <a href="https://www.haoxiangguo.cn/"  target="_blank">Haoxiang Guo</a> </font> <font size="2"><sup>12</sup></font> &emsp;&emsp;
+    <font size="4" face="Times New Roman" > <a href="https://xh-liu-tech.github.io/"  target="_blank">Xiaohan Liu</a> </font> <font size="2"><sup>23</sup></font> &emsp;&emsp;
+    <font size="4" face="Times New Roman" > <a href="https://sites.google.com/site/yandongming/"  target="_blank">Dong-Ming Yan</a> </font> <font size="2"><sup>3</sup></font> &emsp;&emsp;
+    <font size="4" face="Times New Roman" > <a href="https://xueyuhanlang.github.io/"  target="_blank">Yang Liu</a> </font> <font size="2"><sup>2</sup></font>
+    <br> 
+    <font size="2"> <sup>1</sup></font> <font size="3" face="Times New Roman" > <a href="https://www.tsinghua.edu.cn/publish/thu2018en/index.html" target="_blank">Tsinghua University</a></font>
+    &emsp;&emsp;
+    <font size="2"> <sup>2</sup></font> <font size="3" face="Times New Roman" ><a href="http://research.microsoft.com/en-us/labs/asia/" target="_blank">Microsoft Research Asia</a> </font>
+    &emsp;&emsp;
+    <font size="2"> <sup>3</sup></font> <font size="3" face="Times New Roman" ><a href="http://english.cas.cn/" target="_blank">University of Chinese Academy of Sciences</a> </font>
+    <br>
+    <font size="3" face="Times New Roman" > ACM Transactions on Graphics (Proceedings of SIGGRAPH 2020) </font>
+    <br> <br>
+  </td>
+</tr>
+
+<tr>
+  <td valign="top" align="center">
+      <img width="95%" src="./ce_polycube_files/teaser.png">
+  </td>
+</tr>
+</tbody> </table>
+
+<!-- Abstract -->
+<table border="0" width="100%"> <tbody>
+<h2>Abstract</h2>
+<tr>
+  <p style="text-align:justify;">
+  <font face="Times New Roman" >
+    Volumetric PolyCube-Map-based methods offer automatic ways to construct all-hexahedral meshes for closed 3D polyhedral domains, but their meshing quality is limited by the lack of interior singularities and feature alignment. In the presented work, we propose <b>cut-enhanced PolyCube-Maps</b>, to introduce essential interior singularities and preserve most input features. Our main idea is simple and intuitive: by inserting proper parametrization seams into the initial PolyCube-Map via novel PolyCube cutting operations, the mapping distortion can be reduced significantly. The cut-enhanced PolyCube-Map computation includes feature-aware PolyCube-Map construction and cut-enhanced PolyCube deformation. The former aims to preserve input feature edges during the initial PolyCube-map construction. The latter introduces seams into the volumetric PolyCube shape by cutting it through selective PolyCube edges and deforms the modified PolyCube under the seamless constraints to compute a low-distortion PolyCube-Map. The hexahedral mesh induced by the final PolyCube-Map can be further enhanced by our mesh improvement algorithm.
+    <br>
+    We validate the efficacy of our method on a collection of hundred CAD models and demonstrate its advantages over other automatic all-hex meshing methods and padding strategies. The limitations of cut-enhanced PolyCube-Maps are also discussed thoroughly.
+  </font>
+  </p>
+</tr>
+
+<tr>
+  <td align="center" width="25%">
+    <img src="./ce_polycube_files/thumbnail.png" width="200">
+  </td>
+  <td>
+    <strong>Paper</strong> [PDF] <br><br>
+    <strong>Appendix</strong> [PDF] <br><br>
+    <strong>Slides</strong> [PPTX] <br><br>
+    <strong>Code</strong> [<a href="https://github.com/guohaoxiang/CE-PolyCube" target="_blank">Github</a>] <br><br>
+    <strong>Citation</strong> [BibTex]<br>
+    <p style="text-align:justify;">
+    <font face="Times New Roman" >
+<!--     Chun-Yu Sun, Qian-Fang Zou, Xin Tong, and Yang Liu. 2019. Learning
+    Adaptive Hierarchical Cuboid Abstractions of 3D Shape Collections. ACM
+    Trans. Graph. 38, 6, Article 241 (2019), 13 pages. -->
+    </font>
+    </p>
+  </td>
+</tr>
+</tbody> </table>
+
+</div>
+</body>
+</html>
